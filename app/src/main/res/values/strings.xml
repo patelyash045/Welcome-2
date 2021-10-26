@@ -13,4 +13,7 @@
     <string name="login">Login</string>
     <string name="image">image</string>
     <string name="image2">Image2</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+
 </resources>
