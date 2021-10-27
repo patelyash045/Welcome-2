@@ -159,42 +159,38 @@
                 app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
             <TextView
-                android:id="@+id/textView3"
-                android:layout_width="fill_parent"
+                android:id="@+id/SignUp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="100dp"
                 android:layout_weight="0.5"
                 android:text="@string/sign_up"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
-                app:layout_constraintVertical_bias="0.89"
                 tools:ignore="MissingConstraints" />
-            <TextView
-                android:id="@+id/textView4"
 
-                android:layout_width="fill_parent"
+            <TextView
+                android:id="@+id/tvForgotPass"
+
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="80dp"
-                android:layout_marginBottom="20dp"
-                android:layout_weight="0.5"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
                 android:gravity="right"
                 android:text="@string/forgot_password"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button"
-                app:layout_constraintVertical_bias="0.89"
-                tools:ignore="MissingConstraints,RtlHardcoded"
-                tools:layout_editor_absoluteX="44dp" />
+                tools:ignore="MissingConstraints,RtlHardcoded" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
